@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda-Cbr-bootstrap</title>
+
+    <!-- ALL stylesheet -->
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="bg">
+
+        <!-- navbar  -->
+
+        <nav class="navbar navbar-expand-lg navbar-light pt-3">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto px-5">
+                        <li class="nav-item">
+                            <a class="nav-link text-light ms-2" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light ms-2" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light ms-2" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light ms-2" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <form class="container-fluid justify-content-start">
+                                <button class="btn mycolor px-2 mx-2 text-light" type="button">Login</button>
+
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <section class="d-lg-flex d-sm-block p-5 ">
+
+
+            <!-- head body -->
+
+            <div class="container-fluid text-light fw-light pt-5 mt-5 me-5">
+                <p>Computer-controlled digital transistorized with electronic advance</p>
+                <h1 class="fw-bold my-0">Honda CBR 300R</h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit
+                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+                <button type="button" class="btn mycolor text-light" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Purchase
+                </button>
+            </div>
+
+
+            <div>
+                <img class="img-fluid   py-5 me-5" src="header-bike.png" alt="" srcset="">
+
+            </div>
+
+
+        </section>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-dark" id="exampleModalLabel">Purchase Now?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>You can purchase by Card</h2>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Purchase</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+
+        <!-- feature bike section -->
+
+        <section>
+            <h2 class="pt-5 mb-0 fw-bold text-center">Fetured Bikes 2021</h2>
+            <p class="mt-0 text-center mycolor1">Best bike collection</p>
+
+
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col p-3">
+                    <div class="h-100 border-0 ">
+                        <img src="feature-bike.jpg" class="card-img-top p-5 m-3 bike-img" alt="...">
+
+                    </div>
+                </div>
+                <div class="col p-3">
+                    <div class="h-100 border-0">
+                        <img src="feature-bike.jpg" class="card-img-top p-5 m-3" alt="...">
+                    </div>
+                </div>
+                <div class="col p-3">
+                    <div class="h-100 border-0 ">
+                        <img src="feature-bike.jpg" class="card-img-top p-5 m-3 bike-img" alt="...">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!-- Happy Client Section -->
+
+
+        <section>
+
+            <h2 class="p-4 mb-0 fw-bold text-center">Happy <span class="mycolor1"> Clients says</span></h2>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 p-5">
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <img src="user-1.png" class="card-img-top  w-25 py-5 mx-auto" alt="...">
+                        <div class="card-body">
+
+                            <p class="card-text px-5">The Slates help you to see how many more days you need to work to
+                                reach
+                                your financial goal for the month or year.</p>
+
+
+
+                            <!-- icon -->
+
+                            <div class="d-flex mx-auto justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 width" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 width" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 width" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 width" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                            </div>
+                            <a href="#">Regina Miles</a>
+                            <h6>Banker</h6>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <img src="user-2.png" class="card-img-top w-25 py-5 mx-auto" alt="...">
+                        <div class="card-body">
+
+                            <p class="card-text px-5">The Slates help you to see how many more days you need to work to
+                                reach your financial goal for the month or year.</p>
+
+                            <!-- icon -->
+                            <div class="d-flex mx-auto justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 width" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 width" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 width" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 width" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                            </div>
+                            <a href="#">Regina Miles</a>
+                            <h6>Banker</h6>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <img src="user-3.jpg" class="card-img-top w-25 py-5 mx-auto rounded-circle" alt="...">
+                        <div class="card-body">
+
+                            <p class="card-text px-5">The Slates help you to see how many more days you need to work to
+                                reach
+                                your financial goal for the month or year.</p>
+
+                            <!-- icon -->
+
+                            <div class="d-flex mx-auto justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 width" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 width" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 width" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 width" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                            </div>
+                            <a href="#">Regina Miles</a>
+                            <h6>Banker</h6>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Frequently asked section -->
+
+        <section>
+            <h2 class="pt-4 mb-0 fw-bold text-center">Frequently Asked <span class="mycolor1"> Questions</span></h2>
+
+
+            <div class="container pt-5 mt-5 ">
+                <div class="row">
+
+                    <div class="col-sm-6 col-12">
+                        <img class="w-75" src="faq.png" alt="" srcset="">
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What are most important things i should know about riding a bike?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Safety first! always obey the rules of roads. Obey the rules of traffic signals,
+                                        signs and laws. Get the mindset of driving your bike not just riding your bike.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How can i told if my helmet is old and i need a new one?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Safety first! always obey the rules of roads. Obey the rules of traffic signals,
+                                        signs and laws. Get the mindset of driving your bike not just riding your bike.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        My bike has been in storage , is it safe to ride?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Safety first! always obey the rules of roads. Obey the rules of traffic signals,
+                                        signs and laws. Get the mindset of driving your bike not just riding your bike.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        What rules should i follow when riding my bike?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Safety first! always obey the rules of roads. Obey the rules of traffic signals,
+                                        signs and laws. Get the mindset of driving your bike not just riding your bike.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+        <!-- Extra Section-1 -->
+
+        <section class=" p-5 ">
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col text-center">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="feature-bike.jpg" class="card-img-top p-5" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">YAMAHA</h5>
+                            <p class="card-text">Safety first! always obey the rules of roads. Obey the rules of traffic
+                                signals,signs and laws. Get the mindset of driving your bike not just riding your bike.
+                            </p>
+                        </div>
+                        <div class="m-4">
+                            <button class="btn btn-success">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="images.jpeg" class="card-img-top p-5 m-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">HONDA</h5>
+                            <p class="card-text">Safety first! always obey the rules of roads. Obey the rules of traffic
+                                signals,signs and laws. Get the mindset of driving your bike not just riding your bike.
+                            </p>
+                        </div>
+                        <div class="m-4">
+                            <button class="btn btn-success">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="header-bike.png" class="card-img-top p-5" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">HONDA</h5>
+                            <p class="card-text">Safety first! always obey the rules of roads. Obey the rules of traffic
+                                signals,signs and laws. Get the mindset of driving your bike not just riding your bike.
+                            </p>
+                        </div>
+                        <div class="m-4">
+                            <button class="btn btn-success">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Extra Section-2 -->
+
+        <section style="height:300px"
+            class="container d-flex justify-content-center info-bg align-items-center mycolor2 shadow-lg rounded my-5"
+            id="subscribe">
+            <div class="text-center">
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more</p>
+                <input class="form-control" type="text" placeholder="Your Email">
+                <br>
+                <button class=" btn btn-success" id="submit">Submit</button>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <!-- bootstrap Javascript link -->
+
+    <script src="bootstrap.bundle.js"></script>
+</body>
+
+</html>

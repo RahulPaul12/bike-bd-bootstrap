@@ -1,0 +1,32 @@
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg{
+    background-color: #264653;
+
+}
+
+.mycolor{
+    background-color:#E76F51;
+    
+}
+.mycolor1{
+    color: #E76F51;
+}
+.mycolor2{
+background-color: cornflowerblue;
+}
+.bike-img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+a{
+    text-decoration: none;
+}
+.width{
+    
+    width: 30px;
+    fill: #E76F51;
+}
